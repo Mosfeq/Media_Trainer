@@ -1,0 +1,10 @@
+.question_text{
+    padding-left: 30px;
+    height: 100%;
+    color: black;
+    font-size: 24px
+}
+
+.image_and_text{
+    float: left;
+}
