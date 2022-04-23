@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 .header{
     width: 100%;
     height: 80px;
     display: block;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .header_text{
@@ -10,5 +17,43 @@
     height: 100%;
     display: block;
     margin: 0 auto;
-    background-color: yellow;
+}
+
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo h1{
+    color: #156EF2;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.navigation_text{
+    float: right;
+    height: 100%;
+}
+
+.navigation_text a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation_text a:last-child{
+    padding-right: 0;
+}
+
+.navigation_text a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: black;
+    font-size: 24px;
 }
