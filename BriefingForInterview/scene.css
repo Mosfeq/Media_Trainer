@@ -65,3 +65,7 @@ align-items: center;
     background:#A87E7E ;
     width: 75%;
 }
+.go h1{
+    background: #FFFFFF;
+    align-items: flex-end;
+}

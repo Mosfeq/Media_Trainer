@@ -98,7 +98,7 @@ width: 150px;
    
     
 }
-#Easy h2{
+#Easy{
     background: greenyellow;
     width: 250px;
     float: center;
@@ -118,7 +118,7 @@ width: 150px;
     cursor: pointer;
    
 }
-#Hard h2{
+#Hard{
     background: rebeccapurple;
     width: 250px;
     float: center;
