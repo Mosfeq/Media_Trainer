@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <h1>Multiple Choice Questions</h1>
+</head>
+
+<form>
+    Q1. What can you tell us about reports that your company has lost the personal data of hundreds of thousands of your customers?<br>
+    <input type="checkbox" name="question1">"Well, firstly let me assure your viewers that we’re doing everything in our power to understand what’s happened here. I understand the concern and I’m taking personal charge of the situation to ensure things
+    don’t escalate"
+    <br>
+    <input type="checkbox" name="question1" id="Best Practice"> “Thanks for the opportunity to update everyone on the situation. We’re taking this very seriously and our teams are working hard to establish what has happened. Earlier today, our internal
+    monitoring picked up some apparent anomalies with customer data which we’re investigating. While this is ongoing, I don’t want to speculate but I can say that as ever our priority is the welfare of our customers and we’ll be sharing more details with
+    them as soon as we can - and helping them to stay safe.”<br>
+    <input type="checkbox" name="question1">“I’ve been told that we’ve picked up some strange patterns of data in our customer database, but it may be several days before we have the complete picture. I’d ask people to bear with us while we get to the
+    bottom of this.”<br>
+    <input type="submit" name="submit" value="Submit" onclick="result()">
+    <script type="text/javascript">
+        function result() {
+            var score = 0;
+
+            if (document.getElementById('Best Practice').checked) {
+                score++;
+            }
+
+            alert("You have selected: " + score + " Best practice answers");
+        }
+    </script>
+
+
+
+</form>
+
+</html>
