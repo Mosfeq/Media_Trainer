@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+
+<body style="background-color: #e9f5f9;">
+</body>
+
+<head>
+    <div style="position:relative;left:550px;top:70px;">
+        <h1>Multiple Choice Questions</h1>
+    </div>
+</head>
+
+<div style="position:relative;left:450px;top:70px;">
+
+
+    <video width="600" height="400" controls>
+            <source src="../Upload+Record/Interview.mp4" type="video/mp4">
+            
+        </video>
+
+</div>
+
+<body>
+    <div style="position:relative;left:0px;top:250px;font-size: large;">
+        Q1. What can you tell us about reports that your company has lost the personal data of hundreds of thousands of your customers?<br></div>
+    <div style="position:relative;left:0px;top:270px;font-size: 16.25px;">
+        <input type="checkbox" name="question1">
+        <p>"Well, firstly let me assure your viewers that we’re doing everything in our power to understand what’s happened here. I understand the concern and I’m taking personal charge of the situation to ensure things don’t escalate"
+        </p>
+
+
+        <br>
+    </div>
+    <div style="position:relative;left:0px;top:270px;font-size: 16.25px;">
+        <input type="checkbox" name="question1" id="Best Practice">
+        <p> “Thanks for the opportunity to update everyone on the situation. We’re taking this very seriously and our teams are working hard to establish what has happened. Earlier today, our internal monitoring picked up some apparent anomalies with customer
+            data which we’re investigating. While this is ongoing, I don’t want to speculate but I can say that as ever our priority is the welfare of our customers and we’ll be sharing more details with them as soon as we can - and helping them to stay
+            safe.”
+        </p>
+        <br></div>
+    <div style="position:relative;left:0px;top:270px;font-size: 16.25px;">
+        <input type="checkbox" name="question1">
+        <p>“I’ve been told that we’ve picked up some strange patterns of data in our customer database, but it may be several days before we have the complete picture. I’d ask people to bear with us while we get to the bottom of this.”</p><br></div>
+    <div style="position:relative;left:650px;top:320px">
+        <input type=" submit " name="submit " value="Submit " onclick="result() " </div>
+        <script type="text/javascript ">
+            function result() {
+                var score = 0;
+
+                if (document.getElementById('Best Practice').checked) {
+                    score++;
+                }
+
+                alert("You have selected: " + score + " Best practice answers ");
+            }
+        </script>
+</body>
+
+<div>
+    <!-- Hints -->
+
+
+    <div style="position:relative;top: -600px;left: 450px">
+        <button onclick="bFunction()">Hint 1</button>
+    </div>
+
+    <script>
+        function bFunction() {
+            alert("Contains the least aggression");
+        }
+    </script>
+
+    <div style="position:relative;top: -600px;left: 450px">
+        <button onclick="bFunction2()">Hint 2</button>
+    </div>
+
+    <script>
+        function bFunction2() {
+            alert("Detailed and yet unambiguous");
+        }
+    </script>
+
+    <div style="position:relative;top: -600px;left: 450px">
+        <button onclick="bFunction3()">Hint 3</button>
+    </div>
+
+    <script>
+        function bFunction3() {
+            alert("Does not cause inflicted customers to panic: Is authoritative in the sense of knowing exactly what the issues are");
+        }
+    </script>
+</div>
+
+<body>
+
+    <style>
+        .button2 {
+            background-color: none;
+            border: none;
+            color: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        .button2 {
+            font-size: 30px;
+        }
+    </style>
+
+
+    <div style="position:relative;left:680px;top:-20px">
+        <a href="../Upload+Record/upl.html">
+            <button class="button button2">Next</button>
+        </a>
+
+</body>
+
+
+</html>
