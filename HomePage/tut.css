@@ -79,7 +79,6 @@ width: 150px;
    
     text-align:right;
     margin: 20px auto;
-    cursor: pointer; 
     transition: 0.6s;
 }
 #Live.open{
@@ -94,14 +93,13 @@ width: 150px;
    
     font-size: 24px;
     text-transform: uppercase;
-    cursor: pointer;
+    
    
     
 }
 #Easy{
     background: greenyellow;
     width: 250px;
-    float: center;
    transition: 0.3s;
 }
 #Easy.open{
@@ -115,7 +113,7 @@ width: 150px;
    
     font-size: 24px;
     text-transform: uppercase;
-    cursor: pointer;
+    
    
 }
 #Hard{

@@ -66,6 +66,17 @@ align-items: center;
     width: 75%;
 }
 .go h1{
-    background: #FFFFFF;
+    background: maroon;
     align-items: flex-end;
+    
+}
+.go{
+    position: relative;
+  padding-left: 35em;
+  padding-top: 4em;
+}
+.go h3{
+    position: relative;
+    padding-left: 32em;
+    font-family: IM FELL Great Primer;
 }
