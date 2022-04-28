@@ -5,6 +5,10 @@
     font-size: 24px
 }
 
-.image_and_text{
-    float: left;
+.buttonNext{
+    color: white;
+    background-color: #156EF2;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 15px 15px;
 }
