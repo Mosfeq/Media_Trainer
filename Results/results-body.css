@@ -5,10 +5,11 @@
     font-size: 24px
 }
 
-.buttonNext{
-    color: white;
-    background-color: #156EF2;
+.changeScreenButton{
+    color: black;
+    background-color: #F0FFE1;
+    margin-top: 50px;
     font-size: 20px;
-    border-radius: 12px;
+    border-radius: 6px;
     padding: 15px 15px;
 }
