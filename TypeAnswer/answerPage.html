@@ -5,32 +5,9 @@
 </head>
 <body>
     <h1>Please provide your answer</h1>
-    <!-- <form>
-        <input type="answer" id="userAnswer"/>
-    </form> -->
     <input type="text" id="userAnswer" placeholder="Enter Answer" maxlenght="10">
     <input type="button" id="btn" value="Submit">
     <p class="output" id="outputAnswer"></p>
-
-    <script>
-        const txt1 = document.getElementById("userAnswer");
-        const btn1 = document.getElementById("btn");
-        const out1 = document.getElementById("outputAnswer");
-
-        function fun1(){
-            out1.innerHTML = txt1.value;
-        }
-
-        btn1.addEventListener("click", fun1);
-    </script>
-    <!-- <p>
-        Your answer is: <span id="user_answer"></span>.
-    </p>
-    <script>
-        var answer = document.getElementById("userAnswer")
-        // var answer_1 = document.getElementById('userAnswer');
-        document.getElementById("user_answer").innerText = answer;
-    </script> -->
 </body>
 <script src="./answerPage.js"></script>
 </html>
