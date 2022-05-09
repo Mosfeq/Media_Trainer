@@ -4,4 +4,4 @@ const questionNumber = document.getElementById('questionNumber')
 
 nextButton.addEventListener('click', function handleClick() {
     questionNumber.textContent = 'Question 2';
-});
+}); 
